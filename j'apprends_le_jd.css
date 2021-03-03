@@ -1,0 +1,46 @@
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section
+{
+    display: flex;
+    justify-content: space-between;
+}
+section div
+{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+#btn_darkmode
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#btn_whitemode
+{
+    background-color: white;
+    cursor: pointer;
+}
+#btn_redmode
+{
+    background-color: red;
+    cursor: pointer;
+}
+.darkT
+{
+    background: rgb(29, 29, 29);
+    color: white;
+}
+.whiteT
+{
+    background: white;
+    color: black;
+}
+.redT
+{
+    background: red;
+    color: black;
+}
